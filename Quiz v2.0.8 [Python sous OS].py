@@ -6,7 +6,7 @@
 #            \_\  |_____| |_|  |_____|          #
 #################################################
 #                   By Perrier                  #
-#                  Version 2.0.7                #
+#                  Version 2.0.8                #
 #################################################
 
 import random
@@ -38,7 +38,7 @@ def quiz():
     print(colors.GREEN + "         \__  |  | |_| | | |   / /__           ")
     print(colors.GREEN + "            \_\  |_____| |_|  |_____|          ")
     print()
-    print(colors.GREEN + "                 Version: 2.0.7                 ")
+    print(colors.GREEN + "                 Version: 2.0.8                 ")
     print(colors.WARNING+ "▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬")
     sleep(1.5)
     print(colors.END)
@@ -150,7 +150,7 @@ def quiz():
 
     frame = LabelFrame(
     fen,
-    text='Quiz v2.0.7 | Fin',
+    text='Quiz v2.0.8 | Fin',
     bg='#f0f0f0',
     font=(10)
     )
